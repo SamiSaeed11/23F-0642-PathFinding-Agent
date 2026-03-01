@@ -9,7 +9,7 @@ pygame.init()
 
 
 # ================== CONFIG ==================
-SCREEN_HEIGHT = 700
+SCREEN_HEIGHT = 701
 INFO_HEIGHT = 180
 WHITE = (255,255,255)
 BLACK = (0,0,0)
