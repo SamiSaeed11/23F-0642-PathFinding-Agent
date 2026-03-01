@@ -190,7 +190,6 @@ def search_generator(grid, start, goal, algo, heuristic_mode):
                     neighbor.h = heuristic(neighbor, goal, heuristic_mode)
                     neighbor.f = neighbor.g + neighbor.h
 
-
                     if neighbor not in open_hash:
                         count += 1
                         open_set.put((neighbor.f, count, neighbor))
